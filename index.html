@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Portfolio  </title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="#"><i class="ri-mail-fill"></i></a>
+        <a href="https://github.com/RUDra200R"><i class="ri-github-fill"></i></a>
+        <a href="https://www.linkedin.com/in/romil-modi-ab477627a/"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">Romil<span></span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#skills">Skills</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/photo.JPG" alt="header" />
+        </div>
+        <div class="header__content">
+          <h1>Hi, I am Backend Developer. </h1>
+          <p>
+            I'm a passionate backend developer with a talent for turning complex concepts into robust, efficient systems. While still pursuing my degree, I've gained valuable experience in building seamless, scalable, and high-performance backends that enhance digital experiences and bring innovative ideas to life.
+          </p>
+          <button class="btn"><a href="#contact">Hire Me Now</a></button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/photo.JPG" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi There</h2>
+        <p>
+          A passionate backend  developer with a creative flair and a knack for
+          turning visions into reality. My journey in backend development began with
+          a fascination for coding  and it has evolved into a career
+          where I blend aesthetics with functionality.
+        </p>
+        <h4>
+          With a focus on user experience and a commitment to staying updated
+          with the latest industry trends, I'm dedicated to creating web
+          solutions that not only meet but exceed expectations.
+        </h4>
+        <div class="about__btns">
+          <a href="assets/Romil_Resume.pdf" download class="download__btn">
+            Download CV
+          </a>
+          <a href="#"><i class="ri-mail-fill"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="section__container project__container" id="skills">
+      <div class="project__header">
+        <h2 class="section__header">Skills</h2>
+      <div class="project__grid">
+        <div class="project__card mix web">
+          <h3>C</h3>
+        </div>
+        <div class="project__card mix game">
+          <h3>PYTHON(DJANGO)</h3>
+        </div>
+        <div class="project__card mix design">
+          <h3>JAVA</h3>
+        </div>
+        <div class="project__card mix design">
+          <h3>HTML</h3>
+        </div>
+        <div class="project__card mix design">
+          <h3>CSS</h3>
+        </div>
+        <div class="project__card mix web">
+          <h3>JAVASCRIPT</h3>
+        </div>
+        <div class="project__card mix design">
+          <h3>NODEJS</h3>
+        </div>
+        <div class="project__card mix design">
+          <h3>REACTJS</h3>
+        </div>
+        <div class="project__card mix game">
+          <h3>MONGODB</h3>
+        </div>
+        <div class="project__card mix design">
+          <h3>SQL</h3>
+        </div>
+        <div class="project__card mix design">
+          <h3>DOCKER</h3>
+        </div>
+        <div class="project__card mix design">
+          <h3>AWS</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">Our Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix web">
+          <img src="assets/project-1.png" alt="project" />
+          <br>
+          <h3>Anomaly Detection System</h3>
+          <p> The aim of this project is to enhance the surveillance capabilities of security 
+            forces using AI. It is made in form of website which uses Django framework, 
+            mongo DB for database and advanced deep learning techniques (LSTM, LRCN: 
+            RNN-CNN) and opencv library</p>
+            <br>
+            <button class="link btn"><a href="https://github.com/RUDra200R/Django_Backend">Github</a></button>
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project-2.png" alt="project" />
+          <br>
+          <h3>Fincred</h3>
+          <p> Designed to simplify and enhance your financial journey, Fincred offers powerful tools for budgeting, expense tracking, and financial management. Whether you're looking to optimize your spending or gain deeper insights into your financial health, Fincred provides the resources you need to achieve your financial goals with confidence.</p>
+          <br>
+            <button class="link btn"><a href="https://github.com/RUDra200R/FinCred">Github</a></button>
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project-3.png" alt="project" />
+          <br>
+          <h3>Library Management System </h3>
+          <p> This project utilizes PHP and it utilizes MySQL as a database. It consist of a 
+            member and admin registration and many more feature in Admin.</p>
+            <br>
+            <button class="link btn"><a href="https://github.com/RUDra200R/Library_management_System/tree/main/LMS">Github</a></button>
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/project-x.jpg" alt="project" />
+          <br>
+          <h3>URL-Shortener</h3>
+          <p>  Developed a URL shortener using Node.js for backend functionality and 
+            MongoDB for database management, enabling efficient storage and retrieval of 
+            shortened URLs.</p>
+            <br>
+            <button class="link btn"><a href="https://github.com/RUDra200R/Url-shorter">Github</a></button>
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project-x.jpg" alt="project" />
+          <br>
+          <h3>Cipher Guard</h3>
+          <p>This project features a user interface capable of encrypting or decrypting any 
+            word or sentence using the Caesar cipher method and the Python programming 
+            language .</p>
+            <br>
+            <button class="link btn"><a href="https://github.com/RUDra200R/Python_Project/tree/main/Encryption_cyber%20security">Github</a></button>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Us</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn"><a href="#home">Submit</a></button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Romil</a></h5>
+          <p>I'm a passionate backend developer with a talent for turning complex concepts into robust, efficient systems.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            <a href="https://github.com/RUDra200R"><i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/romil-modi-ab477627a/"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Interested Roles</h4>
+          <div class="footer__links">
+            <a href="#">Backend developer</a>
+            <a href="#">Full stack developer</a>
+            <a href="#">Software development</a>
+            <a href="#">Web Development</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 . All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
