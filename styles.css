@@ -131,7 +131,7 @@ nav {
 }
 
 .nav__logo a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -185,7 +185,7 @@ nav {
 }
 
 .header__image img {
-  max-width: 400px;
+  max-width: 250px;
   margin: auto;
 }
 
@@ -331,6 +331,27 @@ nav {
 .mixitup-control-active {
   color: var(--secondary-color);
   background-image: var(--gradient);
+}
+
+.skills__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.skill__card {
+  padding: 1rem 2rem;
+  background-color: var(--secondary-color-light);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.skill__card:hover {
+  border-color: var(--primary-color-dark);
 }
 
 .project__grid {
@@ -639,6 +660,10 @@ nav {
     gap: 2rem;
   }
 
+  .header__image img {
+    max-width: 400px;
+  }
+
   .header__content {
     padding-block: 5rem;
     text-align: left;
@@ -646,9 +671,14 @@ nav {
   }
 
   .about__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     align-items: center;
     gap: 2rem;
+  }
+
+  .about__content {
+    max-width: 800px;
+    margin: auto;
   }
 
   .banner__container {
